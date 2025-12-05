@@ -36,3 +36,49 @@ A Python CLI application that fetches and displays data from JSONPlaceholder API
 - **Modular Design**: Clean separation of concerns
 
 ## 📁 Project Structure
+
+
+global-trend-api-project/
+│
+├── main.py # Main CLI application
+├── api_handler.py # API calls with error handling
+├── cache.py # Data caching logic
+├── config.py # Configuration settings
+│
+├── requirements.txt # Python dependencies
+├── README.md # This documentation file
+├── data_cache.json # Auto-generated cache file
+│
+├── screenshots/ # Screenshots folder
+│ ├── main_menu.png
+│ ├── posts_list.png
+│ └── user_details.png
+│
+└── tests/ # Test files (optional)
+├── test_api_handler.py
+└── test_cache.py
+
+
+### File Descriptions
+
+| File | Purpose |
+|------|---------|
+| **main.py** | Entry point with CLI interface and menu system |
+| **api_handler.py** | Handles all API communication with error handling |
+| **cache.py** | Manages data storage and retrieval with expiry |
+| **config.py** | Centralized configuration and constants |
+| **requirements.txt** | Project dependencies |
+
+## 🚀 Installation
+
+### Prerequisites
+- Python 3.7 or higher
+- pip (Python package manager)
+- Internet connection (for initial API fetch)
+
+### Step-by-Step Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/global-trend-api-project.git
+   cd global-trend-api-project
