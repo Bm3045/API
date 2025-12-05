@@ -86,10 +86,20 @@ global-trend-api-project/
 2. **Create virtual environment (recommended)**
 
    ```bash
-python -m venv venv
+   python -m venv venv
 
 # On Windows
 venv\Scripts\activate
 
 # On macOS/Linux
 source venv/bin/activate
+
+3. **Install dependencies**
+
+   ```bash
+pip install -r requirements.txt
+Verify installation
+
+  ```bash
+python --version
+pip list
