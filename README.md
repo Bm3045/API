@@ -89,17 +89,17 @@ global-trend-api-project/
    python -m venv venv
 
 # On Windows
-venv\Scripts\activate
+   venv\Scripts\activate
 
 # On macOS/Linux
-source venv/bin/activate
+   source venv/bin/activate
 
 3. **Install dependencies**
 
    ```bash
-pip install -r requirements.txt
-Verify installation
+   pip install -r requirements.txt
+   Verify installation
 
   ```bash
-python --version
-pip list
+  python --version
+  pip list
