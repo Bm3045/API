@@ -82,3 +82,14 @@ global-trend-api-project/
    ```bash
    git clone https://github.com/yourusername/global-trend-api-project.git
    cd global-trend-api-project
+
+2. **Create virtual environment (recommended)**
+
+   ```bash
+python -m venv venv
+
+# On Windows
+venv\Scripts\activate
+
+# On macOS/Linux
+source venv/bin/activate
