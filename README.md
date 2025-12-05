@@ -98,8 +98,13 @@ global-trend-api-project/
 
    ```bash
    pip install -r requirements.txt
+
    Verify installation
 
   ```bash
   python --version
   pip list
+
+4.**Running the Application**
+  ```bash
+  python main.py
